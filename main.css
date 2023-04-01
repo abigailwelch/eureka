@@ -1,0 +1,54 @@
+body {
+    border: 1px solid blue;
+    background-color: lightpink;
+}
+
+/* name svg's */
+.abigail{
+    border: 1px solid blue;
+    scale: .3;
+    justify-items: left;
+}
+
+.welch{
+    border: 1px solid blue;
+    scale: .3;
+}
+
+/* navigation */
+nav{
+    /* border: 1px solid blue; */
+    width: 100%;
+    top:0;
+    left:0;
+    z-index:10;
+  }
+
+  nav ul {
+    /* border: 1px solid blue; */
+    margin:0;
+    /* padding:0; */
+    display:flex;
+  }
+  nav li{
+    /* border: 1px solid blue; */
+    /* padding: 1em 0; */
+    list-style-type: none;
+    padding: 25px;
+    font-size: 1.7em;
+  }
+  
+  nav li a {
+    color:rgb(27, 117, 228);
+    font-family:arial;
+    font-weight: 600;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: .3s;
+  }
+  
+  nav li a:hover {
+    color:rgb(233, 70, 233);
+    opacity: 1;
+    text-decoration: none;
+  }
