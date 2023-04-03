@@ -26,12 +26,14 @@ nav{
 
   nav ul {
     /* border: 1px solid blue; */
+    /* align-content: center; */
+    justify-content: center;
     margin:0;
     /* padding:0; */
     display:flex;
   }
   nav li{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     /* padding: 1em 0; */
     list-style-type: none;
     padding: 25px;
