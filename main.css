@@ -86,7 +86,7 @@ nav{
   }
   
   nav li a:hover {
-    color:rgb(233, 70, 233);
+    color:rgb(255, 111, 0);
     opacity: 1;
     text-decoration: none;
   }
