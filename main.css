@@ -8,23 +8,31 @@ body {
 
 /* name svg's */
 .abigail{
-    border: 1px solid blue;
-    /* scale: .3; */
+    /* border: 1px solid blue; */
+    /* scale: .5; */
+    padding: 20%;
+    
 }
 
 .welch{
-    border: 1px solid blue;
-    /* scale: .3; */
+    /* border: 1px solid blue; */
+    /* scale: .5; */
+    padding: 20%;
+   
 }
 
 /* dooda gif */
 .dooda {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* scale: .5; */
+    padding: 35%;
+    
 }
 
+
+/* header container */
 .header-container{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   position:center;
   align-items: center;
   /* top: 150px; */
@@ -38,6 +46,9 @@ body {
   "a""b""c";
   /* grid-gap: 20px; */
 }
+
+
+
 
 
 /* navigation */
