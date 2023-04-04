@@ -1,18 +1,24 @@
 body {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-color: lightpink;
 }
 
 /* name svg's */
 .abigail{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     scale: .3;
-    justify-items: left;
 }
 
 .welch{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     scale: .3;
+}
+
+/* dooda gif */
+.dooda {
+    /* border: 1px solid blue; */
+    scale: .5;
+    
 }
 
 /* navigation */
@@ -33,7 +39,7 @@ nav{
     display:flex;
   }
   nav li{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* padding: 1em 0; */
     list-style-type: none;
     padding: 25px;

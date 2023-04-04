@@ -1,2 +1,3 @@
-# boilerPlate
+# portfolio
+trying to make sense of it all...
 basic starting file structure for Umass Dartmouth
