@@ -1,3 +1,5 @@
+
+/* BODY */
 body {
     /* border: 1px solid red; */
     background-color: lightpink;
@@ -5,35 +7,34 @@ body {
 }
 
 
-/* name svg's */
+/* HEADER SVG'S */
 .abigail{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     /* scale: .5; */
-    padding: 20%;
+    padding-left: 20%;
     
 }
 
 /* dooda */
 .dooda {
-    /* border: 1px solid blue; */
-    /* scale: .5; */
-    padding: 35%;
+    border: 1px solid blue;
+    scale: .4;
+    /* padding: 35%; */
     
 }
 
 .welch{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     /* scale: .5; */
-    padding: 20%;
+    padding-right: 20%;
    
 }
 
 
 
-
-/* header container */
+/* HEADER CONTAINER */
 .header-container{
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   position:center;
   align-items: center;
   /* top: 150px; */
@@ -47,14 +48,13 @@ body {
   "a"
   "b"
   "c";
-  /* grid-gap: 20px; */
 }
 
 
 
 
 
-/* navigation */
+/* NAVIGATION */
 nav{
     /* border: 3px solid blue; */
     /* margin: 0 auto;
