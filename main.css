@@ -3,23 +3,42 @@ body {
     background-color: lightpink;
 }
 
+
+
+
 /* name svg's */
 .abigail{
-    /* border: 1px solid blue; */
-    scale: .3;
+    border: 1px solid blue;
+    /* scale: .3; */
 }
 
 .welch{
-    /* border: 1px solid blue; */
-    scale: .3;
+    border: 1px solid blue;
+    /* scale: .3; */
 }
 
 /* dooda gif */
 .dooda {
-    /* border: 1px solid blue; */
-    scale: .5;
-    
+    border: 1px solid blue;
+    /* scale: .5; */
 }
+
+.header-container{
+  border: 1px solid blue;
+  position:center;
+  align-items: center;
+  /* top: 150px; */
+  /* left: 30px; */
+  /* width:20%; */
+  /* margin: 0 auto; */
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "a""b""c";
+  /* grid-gap: 20px; */
+}
+
 
 /* navigation */
 nav{
