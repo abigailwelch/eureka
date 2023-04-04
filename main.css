@@ -1,9 +1,8 @@
 body {
-    /* border: 1px solid blue; */
+    /* border: 1px solid red; */
     background-color: lightpink;
+  
 }
-
-
 
 
 /* name svg's */
@@ -14,6 +13,14 @@ body {
     
 }
 
+/* dooda */
+.dooda {
+    /* border: 1px solid blue; */
+    /* scale: .5; */
+    padding: 35%;
+    
+}
+
 .welch{
     /* border: 1px solid blue; */
     /* scale: .5; */
@@ -21,13 +28,7 @@ body {
    
 }
 
-/* dooda gif */
-.dooda {
-    /* border: 1px solid blue; */
-    /* scale: .5; */
-    padding: 35%;
-    
-}
+
 
 
 /* header container */
@@ -43,7 +44,9 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
-  "a""b""c";
+  "a"
+  "b"
+  "c";
   /* grid-gap: 20px; */
 }
 
@@ -53,10 +56,10 @@ body {
 
 /* navigation */
 nav{
-    /* border: 1px solid blue; */
+    /* border: 3px solid blue; */
+    /* margin: 0 auto;
     width: 100%;
-    top:0;
-    left:0;
+    top:0; */
     z-index:10;
   }
 
@@ -64,7 +67,7 @@ nav{
     /* border: 1px solid blue; */
     /* align-content: center; */
     justify-content: center;
-    margin:0;
+    margin:0 auto;
     /* padding:0; */
     display:flex;
   }

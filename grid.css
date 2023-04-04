@@ -27,7 +27,6 @@
 }
 .box1 {
     grid-area: a;
-    
 }
 
 .box2 {
@@ -103,16 +102,16 @@
     height: 100%;
     display: block;
     position: relative;
-    -webkit-transition: all 0.4s ease-in;
-    transition: all 0.4s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
   }
   
   .hovereffect:hover img {
-    filter:blur(3px);
-    -webkit-filter: blur(3px);
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    /* filter:blur(2px); */
+    /* -webkit-filter: blur(2px); */
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
   
   .hovereffect h2 {
@@ -121,7 +120,7 @@
     position: relative;
     font-size: 1em;
     padding: 10px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'arial';
     /* color:#FFA100; */
   }
   
@@ -136,16 +135,16 @@
  
   
   .hovereffect p, .hovereffect h2 {
-    -webkit-transform: scale(0.7);
-    -ms-transform: scale(0.7);
-    transform: scale(0.7);
-    -webkit-transition: all 0.4s ease-in;
-    transition: all 0.4s ease-in;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
     opacity: 0;
     filter: alpha(opacity=0);
     color: #fff;
     text-transform: uppercase;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'arial';
     font-weight: 200;
     margin-top:100px;
   }
