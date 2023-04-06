@@ -7,40 +7,33 @@ body {
 }
 
 
-/* HEADER SVG'S */
-.abigail{
-    /* border: 1px solid blue; */
-    /* scale: .5; */
+/* TITLE SVG'S */
+/* .abigail{
+    border: 1px solid blue;
     padding-left: 20%;
     
 }
 
-/* dooda */
+
 .dooda {
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     scale: .4;
-    /* padding: 35%; */
     
 }
 
 .welch{
-    /* border: 1px solid blue; */
-    /* scale: .5; */
+    border: 1px solid blue;
     padding-right: 20%;
    
-}
+} */
 
 
 
-/* HEADER CONTAINER */
-.header-container{
-  /* border: 1px solid blue; */
+/* TITLE CONTAINER */
+.title-container{
+  border: 1px solid blue;
   position:center;
   align-items: center;
-  /* top: 150px; */
-  /* left: 30px; */
-  /* width:20%; */
-  /* margin: 0 auto; */
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -57,9 +50,9 @@ body {
 /* NAVIGATION */
 nav{
     /* border: 3px solid blue; */
-    /* margin: 0 auto;
-    width: 100%;
-    top:0; */
+    /* margin: 0 auto; */
+    /* width: 100%; */
+    /* top:0; */
     z-index:10;
   }
 
