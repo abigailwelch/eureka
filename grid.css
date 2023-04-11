@@ -57,14 +57,14 @@
 /* MEDIA QUERY FOR MOBILE */
 @media (max-width:735px){
     nav {
-        /* padding-left: 0; */
-        border: 1px solid blue;
+        padding-left: 0;
+        /* border: 1px solid blue; */
     }
 
    .image-gallery {
        padding-bottom: 13%;
-       padding-left:10%;
-       padding-right:10%;
+       /* padding-left:10%;
+       padding-right:10%; */
        grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
        grid-template-areas:
        ".a."
